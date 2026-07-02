@@ -1,0 +1,1 @@
+import{f as c}from"./vendor-misc-DHqgCHI-.js";function u(t={}){const e=c({page:t.page||1,pageSize:t.pageSize||10,total:0});function g(a){e.total=Number(a)||0}function n(){e.page=1}function i(a){e.page=a}function o(a){e.pageSize=a,n()}return{pagination:e,setTotal:g,resetPage:n,changePage:i,changePageSize:o}}export{u};
